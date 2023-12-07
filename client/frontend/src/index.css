@@ -1,0 +1,100 @@
+/* NavBar.css */
+
+/* Styles for the navigation bar */
+nav {
+  background-color: orange;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav_logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerList {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.headerListItem {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.headerListItem.active {
+  border-bottom: 2px solid white;
+}
+
+.headerListItem span {
+  margin-left: 5px;
+}
+
+.headerTitle {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.headerDesc {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.headerBtn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.headerSearch {
+  margin-top: 20px;
+}
+
+
+.button {
+  background-color: black;
+  color:black;
+  padding: 1px 5px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
